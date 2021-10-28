@@ -5,6 +5,7 @@ struct ItemEditView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var vm: ItemListViewModel
     @State var item: Item
+    var operation: Operation = .edit
     
     var body: some View {
         NavigationView {
@@ -15,12 +16,16 @@ struct ItemEditView: View {
                 TextField("Description", text: $item.description)
                     .textFieldStyle(.roundedBorder)
             }
-            .navigationTitle("Edit Item")
+            .navigationTitle("\(operation == .add ? "Add" : "Edit") Item")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Button("Cancel") {
                 presentationMode.wrappedValue.dismiss()
             }, trailing: Button("Save") {
-                vm.update(item: item)
+                if operation == .add {
+                    vm.add(item: item)
+                } else {
+                    vm.update(item: item)
+                }
                 presentationMode.wrappedValue.dismiss()
             })
         }

@@ -15,6 +15,7 @@
 		4A2A52542727EA0C0061288C /* ItemEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A52532727EA0C0061288C /* ItemEditView.swift */; };
 		4A2A52562727EA2B0061288C /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A52552727EA2B0061288C /* ItemDetailView.swift */; };
 		4A2A52582727EA4A0061288C /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A52572727EA4A0061288C /* ItemListViewModel.swift */; };
+		4A69FE502728A5AB003D88F8 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69FE4F2728A5AB003D88F8 /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4A2A52532727EA0C0061288C /* ItemEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditView.swift; sourceTree = "<group>"; };
 		4A2A52552727EA2B0061288C /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		4A2A52572727EA4A0061288C /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
+		4A69FE4F2728A5AB003D88F8 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				4A2A52532727EA0C0061288C /* ItemEditView.swift */,
 				4A2A52552727EA2B0061288C /* ItemDetailView.swift */,
 				4A2A52572727EA4A0061288C /* ItemListViewModel.swift */,
+				4A69FE4F2728A5AB003D88F8 /* Operation.swift */,
 				4A2A52472727E9940061288C /* Assets.xcassets */,
 				4A2A52492727E9940061288C /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A2A52562727EA2B0061288C /* ItemDetailView.swift in Sources */,
+				4A69FE502728A5AB003D88F8 /* Operation.swift in Sources */,
 				4A2A52582727EA4A0061288C /* ItemListViewModel.swift in Sources */,
 				4A2A52462727E9910061288C /* ContentView.swift in Sources */,
 				4A2A52542727EA0C0061288C /* ItemEditView.swift in Sources */,

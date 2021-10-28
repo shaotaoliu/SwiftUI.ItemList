@@ -31,6 +31,6 @@ class ItemListViewModel: ObservableObject {
 
 struct Item {
     let id = UUID()
-    var name: String
-    var description: String
+    var name: String = ""
+    var description: String = ""
 }
