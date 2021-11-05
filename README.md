@@ -6,12 +6,11 @@ This simple app shows how to pass data between views. The main screen shows a li
 
 Tapping the Add button shows the ItemAddView.
 
-![image](https://user-images.githubusercontent.com/15805568/138834965-a59feca8-f49e-447b-8f9c-3f69f3cfb38a.png)
-
-
 ```swift
 ItemAddView()
 ```
+
+![image](https://user-images.githubusercontent.com/15805568/138834965-a59feca8-f49e-447b-8f9c-3f69f3cfb38a.png)
 
 In ItemAddView, a new item is instantiated and passed to ItemEditView by value.
 
